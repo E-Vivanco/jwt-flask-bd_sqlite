@@ -1,9 +1,0 @@
--- Active: 1673006522058@@127.0.0.1@3306@bdwsmysql
-
-CREATE TABLE phone_numbers(
-id INTEGER NOT NULL AUTO_INCREMENT,
-phone VARCHAR(25) NULL,
-user_id INT(10) NOT NULL,
-PRIMARY KEY (id),
-FOREIGN KEY (user_id) REFERENCES users(id)
-);
